@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+
+
+/*styling the navigation */
+
+.navbar{
+    /* background-color:#964B00; */
+    /* background-color: #652A0E; */
+    background-color: black;
+
+    color: white;
+    list-style-type: none;
+    padding: 10px 0px 15px 10px; 
+    margin: 0;
+    box-sizing: border-box;
+    height: 55px;
+    width: 100%;
+}
+.navbar ul{
+    float: right;
+    margin-right: 10px;
+    list-style-type: none;
+    box-sizing: border-box;
+}
+.navbar ul li{
+    display: inline-block;
+    margin: 5px;
+    line-height: 10px;
+}
+.navbar ul li a{
+    font-family: 'Montserrat', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 15px;
+    color: white;
+    padding-right: 9px;
+}
+label.logo{
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    font-size: 32px;
+    font-weight :400;
+    float: left;
+    margin-top: 0px;
+    margin-right: 10px;
+   
+}
+.divider{
+ 
+    background-color: white;
+    color: black;
+
+    height: 7px;
+}
+.homeblack{
+
+    background-color: white;
+   
+
+    padding: 30px 7px 11px 7px;
+}
+.homewhite:hover{
+background-color: white;
+color: black;
+padding: 30px 9px 11px 9px;
+}
+.navbar a:active{
+    background-color:black;
+}

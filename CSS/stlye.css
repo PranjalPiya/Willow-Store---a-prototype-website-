@@ -1,0 +1,106 @@
+/*fonts imported from google font*/
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Oswald:400,700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Lato:400,700,700i&display=swap');
+
+
+
+/*styling the body */
+body{
+   
+   width: 100%;
+   height: 100%;
+   background-repeat: no-repeat;
+   background-size: cover;
+    margin: 0;  
+    padding: 0;    
+}
+
+.homeh1{
+  
+    padding: 13% 240px 0% 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px; 
+    color: white;
+}
+.homebutton{
+    
+    box-sizing: border-box;
+   padding-left: 5%;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 25px; 
+}
+
+.homeh2{
+    text-align: justify;
+    /* text-align: center; */
+    padding: 0px 20px 0px 5%;
+    font-family: 'Lato', sans-serif;
+    font-size: 22px;
+    font-weight: 100;
+    color: white;
+}
+
+P{
+    font-size: 20px;
+    margin :0px 10px 0px 20px;
+    color:black;
+  
+    padding: 2px 10px opx 2px;
+
+}
+.intro h2{
+     font-family: Arial, Helvetica, sans-serif;
+     text-align: center;
+     font-weight: 900;
+}
+.contact{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    padding: 100px 0px 0px 0px;
+}
+
+.footer {
+   
+    padding: 10px 0px 0px 0px;
+    height:30px; 
+    background-color: gainsboro;
+    background-image: none;
+    background-repeat: repeat;
+    background-attachment: scroll;
+    background-position: 0% 0%;
+    position: fixed;
+    bottom: 0pt;
+    width: 100%;
+    left: 0pt;
+
+}   
+
+.footer_contents {
+   text-align: center;
+    height:24px; 
+    width: 1000px; 
+    margin:auto;
+
+}
+
+.discription{
+  padding: 5% 10% 0px 0px;
+  }
+
+.tbl{
+    text-align: center;
+    padding: 0px 0px 0px 10%;
+}
+
+.contactTable{
+    text-align: center;
+    align-content: center;
+    padding-top: 3%;
+    padding-bottom: 5%;
+    padding-left: 30%;
+    width:"60%";
+}

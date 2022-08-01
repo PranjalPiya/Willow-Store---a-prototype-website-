@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--creating title-->
+       <title>Willows Store - Contact Page</title>
+   <meta charset="UTF-8">
+   <meta name="stylesheet" content="width=device-width, initial-scale=1">
+   <!--linking CSS in html using link tag-->
+   <link rel="stylesheet" href="../CW3_Website/CSS/nav.css">
+   <link rel="stylesheet" href="../CW3_Website/CSS/stlye.css">
+   
+   </head>
+   <body background="../CW3_Website/Images/contact_background.jpg"> 
+   
+
+
+<!--  creating a navigation bar insdie <div> tags -->
+       <div class="navbar">
+<!--label for my website-->
+<a href="Homepage.html">   <label class="logo">Willows Store</label></a>
+           <ul>
+<li><a class="homewhite"  href="Homepage.html">Home</a></li>
+<li><a class="homewhite" href="Product.html" >Product Page</a></li>
+<li><a class="homewhite" href="Blog.html" >Blog</a></li>
+<li><a class="homewhite" href="Research.html">Research</a></li>
+<li><a class="homeblack" style="color: black;" href="Contact.html">Contact</a> </li>
+</div>
+<div class="divider "></div>
+
+<!-- External Java Script -->
+<!-- <script src="dateTime.js"> </script> -->
+
+
+<!-- Internal JavaScript -->
+<p style='color:white; text-align:center; padding-top: 10px;'>Current Date and Time is <span id='date-time'></span>.</p>
+<script>
+    var dt = new Date();
+    document.getElementById('date-time').innerHTML=dt;
+</script>
+
+<!--creating table -->
+<div class="contactTable">
+<table   style="width:60% ; border: 7px solid whitesmoke;"  background="../CW3_Website/Images/Background.jpg">
+    <tr>
+        <!--inline CSS-->
+<th style="background-color: black;"><h1 style="color:whitesmoke; font-family: sans-serif;">Contact Us</h1>
+  
+    <h3 style="color: whitesmoke;font-family: sans-serif;">Please fill up the form.</h3></th>
+    
+    </tr>
+    <tr>
+<th><div class="contact">
+    <!-- creating validform-->
+<form onsubmit="validateform()" style="color: whitesmoke;">
+    First Name: <br>
+    <input id="fn" placeholder="write first name" name="firstname"  required>
+    <br>
+    <br>
+    Last Name: <br>
+    <input id="ln"   placeholder="write last name" name="lastname"  required>
+   
+    <br>
+    <br>
+    Address: <br>
+    <input id="ad" placeholder="write address" name="address"  required>
+    <br>
+    <br>
+    Message us: <br>
+    <textarea   id="msg" name="message" rows="10" cols="30" placeholder="write a message" required></textarea> </textarea>
+    <br>
+   
+   <button onclick="validateform()" style="padding: 10px 10px 10px 10px ; background-color: whitesmoke;">Submit</button>
+</br>
+    </form>
+    <!--Internal java script-->
+<script >
+    function validateform(){
+        var firstname= document.getElementById('fn');
+        var lastname= document.getElementById('ln');
+        var address= document.getElementById('ad');
+        var message= document.getElementById('msg');
+
+        if(firstname.value==''||lastname.value==''||address.value==''||message.value==''){
+            alert('Please fill up the form');
+        }
+        else{
+            alert('Thank you for filling up the form..!');
+        }
+
+    }
+</script>
+</th>
+    </tr>
+</table>
+</div>
+<!--creating footer-->
+<div class="footer">
+
+    <div class="footer_contents"> &copy; 2022 Willows Store</div>
+
+</div>
+ <!--footer closed-->
+</body>
+</html>
